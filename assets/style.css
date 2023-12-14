@@ -6,6 +6,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    height: 100vh;
+}
+
 /* UTILITY */
 .bg-color-1{
     background-color:  rgb(247, 249, 250);
@@ -16,18 +20,14 @@ a{
 }
 
 /* NAV */
-nav{
-    height: 100px;
+header{
+    height: 90px;
+    border: 1px solid lime;
 }
 
-nav ul li i{
-    font-size: 18px;
-    margin-top: 20px;
-    color: grey;
+header nav{
+    height: 70px;
 }
 
-nav ul li:last-child i{
-    color: #ff9100;
-}
 
 
