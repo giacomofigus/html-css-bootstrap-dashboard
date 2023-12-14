@@ -6,14 +6,8 @@ a{
     text-decoration: none;
 }
 
-body > div{
-    height: 100vh;
-    border: 2px solid red;
-}
-
 main{
-    border:3px solid blue;
-    height: 100%;
+    height: calc(100% - 90px);
 }
 
 /* UTILITY */
@@ -23,6 +17,10 @@ main{
 
 .bg-color-2{
     background-color: #e6e6e6
+}
+
+.bg-color-3{
+    background-color: #1c71e8;
 }
 
 /* NAV */
@@ -36,13 +34,40 @@ header nav{
 
 /* SIDEBAR */
  .sidebar{
+    background-image: url(./img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-color: #051e33;
+
     width: 80px;
-    border: 1px solid red;
 }
 
 /* MAIN CONTENT */
 .main-content{
     width: calc(100% - 80px);
-   
-} 
+    overflow: auto; 
+}
+
+/* TOPBAR */
+.topbar{
+    height: 270px;
+}
+
+
+/******** MEDIA *********/
+@media screen and (min-width: 992px) {
+    .sidebar{    
+        width: 180px;
+    }
+
+    .main-content{
+        width: calc(100% - 180px); 
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .topbar{
+        height: 150px;
+    }
+}
 
