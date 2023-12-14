@@ -6,8 +6,14 @@ a{
     text-decoration: none;
 }
 
-body{
+body > div{
     height: 100vh;
+    border: 2px solid red;
+}
+
+main{
+    border:3px solid blue;
+    height: 100%;
 }
 
 /* UTILITY */
@@ -22,12 +28,21 @@ body{
 /* NAV */
 header{
     height: 90px;
-    border: 1px solid lime;
 }
 
 header nav{
     height: 70px;
 }
 
+/* SIDEBAR */
+ .sidebar{
+    width: 80px;
+    border: 1px solid red;
+}
 
+/* MAIN CONTENT */
+.main-content{
+    width: calc(100% - 80px);
+   
+} 
 
