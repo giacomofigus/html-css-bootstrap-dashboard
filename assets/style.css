@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* UTILITY */
+.bg-color-1{
+    background-color:  rgb(247, 249, 250);
+}
+
+.bg-color-2{
+    background-color: #e6e6e6
+}
+
+/* NAV */
+nav{
+    height: 100px;
+}
+
+nav ul li i{
+    font-size: 18px;
+    margin-top: 20px;
+    color: grey;
+}
+
+nav ul li:last-child i{
+    color: #ff9100;
+}
+
+
