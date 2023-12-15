@@ -22,8 +22,8 @@
         <header class="bg-color-1 d-flex align-items-center">
             <nav class="d-flex align-items-center justify-content-between w-100 bg-white  ">
                 <a href="#">
-                    <img src="./assets/img/mobile-logo.png" width="60" class="d-lg-none" alt="logo">
-                    <img src="./assets/img/logo.svg" class="d-sm-none d-lg-block" alt="logo">
+                    <img src="./assets/img/mobile-logo.png" width="60" class="d-lg-none ms-3" alt="logo">
+                    <img src="./assets/img/logo.svg" class="d-none d-sm-none d-md-none d-lg-block ms-4" alt="logo">
                 </a>
     
                 <div class="d-flex align-items-center bg-color-2 rounded col-8 h-75">
@@ -52,20 +52,54 @@
                             <i class="fa-solid fa-bell"></i>
                         </a>
                     </li>
+                    
                 </ul>
+
+                
             </nav>
         </header>
 
         <!-- SIDEBAR -->
         <main>
-            <div class="personalized-container d-flex h-100">
-                <div class="sidebar h-100">
+            <div class="personalized-container d-flex h-100 border border-danger">
+                <div class="sidebar h-100 d-flex flex-column justify-content-between">
+                    <nav class="">
+                        <ul class="pt-4">
+                            <li class=" pb-3">
+                                <a href="#" class="d-flex align-items-center text-white fs-5 ">
+                                    <i class="fa-solid fa-house pe-lg-2"></i>
+                                    <span class="d-none d-sm-none d-md-none d-lg-block">Home</span>
+                                </a>
+                            </li>
+
+                            <li class="pb-3">
+                                <a href="#" class="d-flex align-items-center text-white fs-5 ">
+                                    <i class="fa-solid fa-chart-simple pe-lg-3"></i>
+                                    <span class="d-none d-sm-none d-md-none d-lg-block">Stats</span>
+                                </a>
+                            </li>
+
+                            <li class="pb-3">
+                                <a href="#" class="d-flex align-items-center text-white fs-5">
+                                    <i class="fa-solid fa-signal pe-lg-2"></i>
+                                    <span class="d-none d-sm-none d-md-none d-lg-block">Signals</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <a href="#" class="admin d-flex align-items-center justify-content-center text-white fs-5 pb-4">
+                        <i class="fa-solid fa-gear pe-lg-2 "></i>
+                        <span class="d-none d-sm-none d-md-none d-lg-block">Admin</span>
+                    </a>
                     
                 </div>
     
                 <div class="main-content h-100 ">
                     <div class="topbar bg-color-3">
-
+                        <nav>
+                            <ul></ul>
+                        </nav>
                     </div>
 
                 </div>

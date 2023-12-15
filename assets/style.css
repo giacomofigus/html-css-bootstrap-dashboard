@@ -41,6 +41,7 @@ header nav{
     width: 80px;
 }
 
+
 /* MAIN CONTENT */
 .main-content{
     width: calc(100% - 80px);
