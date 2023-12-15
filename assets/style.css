@@ -23,6 +23,10 @@ main{
     background-color: #1c71e8;
 }
 
+.bg-color-4{
+    background-color: #165bba;
+}
+
 /* NAV */
 header{
     height: 90px;
@@ -53,6 +57,33 @@ header nav{
     height: 270px;
 }
 
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: white;
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-zindex: 1045;
+    --bs-offcanvas-width: 50%;
+}   
+
+input[type="file"]::file-selector-button{
+    border: none;
+    color: black;
+    padding-block: 3px;
+
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+form .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+}
+
+
 
 /******** MEDIA *********/
 @media screen and (min-width: 992px) {
@@ -70,5 +101,12 @@ header nav{
     .topbar{
         height: 150px;
     }
+}
+
+@media screen and (max-width: 576px) {
+    .offcanvas {
+        
+        --bs-offcanvas-width: 100%;
+    }  
 }
 
