@@ -94,11 +94,8 @@ form .btn-primary {
 }
 
 .accordion-button:not(.collapsed) {
-    
     background-color: transparent; 
-    ;
 }
-
 
 .accordion-item:first-of-type {
     border-top-left-radius: 0; 
@@ -114,10 +111,6 @@ form .btn-primary {
     border:0;
 }
 
-
-.right-tables .users-table{
-    height: 400px;
-}
 
 
 
