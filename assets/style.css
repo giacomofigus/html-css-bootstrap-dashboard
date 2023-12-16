@@ -89,8 +89,15 @@ form .btn-primary {
 .accordion{
     --bs-accordion-btn-padding-x: 0;
     --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-focus-border-color: #86b7fe; 
+    --bs-accordion-btn-focus-box-shadow: transparent;
 }
 
+.accordion-button:not(.collapsed) {
+    
+    background-color: transparent; 
+    ;
+}
 
 
 .accordion-item:first-of-type {
@@ -107,14 +114,6 @@ form .btn-primary {
     border:0;
 }
 
-
-
-
-
-
-.right-tables .todo-table{
-    height: 150px;
-}
 
 .right-tables .users-table{
     height: 400px;
