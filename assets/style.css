@@ -66,7 +66,24 @@ header nav{
 .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-xl, .offcanvas-xxl {
     --bs-offcanvas-zindex: 1045;
     --bs-offcanvas-width: 50%;
-}   
+}
+
+/* TABLES */
+.left-tables .tables-class{
+    height: 300px;
+}
+
+.left-tables .faq-table{
+    height: 150px;
+}
+
+.right-tables .todo-table{
+    height: 150px;
+}
+
+.right-tables .users-table{
+    height: 400px;
+}
 
 input[type="file"]::file-selector-button{
     border: none;
